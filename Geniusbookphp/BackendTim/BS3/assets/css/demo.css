@@ -1,0 +1,127 @@
+@media (min-width: 992px){
+    .typo-line{
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category{
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+
+
+
+   button {
+  background-color: #FC2986;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  button {border-radius: 12px;}
+button:hover {
+  background-color: yellow;
+  color: blue;
+}
+nav1{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  font-family: 'Prata', serif;
+  font-size: 22px;
+}
+    
+    
+    table, th, td {
+  border: 7px solid #fff;
+  width:100%;
+    padding: 13px;
+
+      text-align:center;
+
+    border-collapse: collapse;
+  background-color: #FDF8EA;
+
+}
+table {border-radius: 12px;}
+
+table th{
+  background-color: #1970C1;
+  color: white;
+
+  form{
+      text-align:center;
+  }
+
+
+}
+.checked {
+  color: orange;
+}
+
+
+
+
+.all-icons [class*="pe-"]{
+    font-size: 40px;
+}
+.all-icons input{
+    border: 0;
+}
+.all-icons .font-icon-detail{
+    text-align: center;
+    padding: 45px 0px 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+.all-icons .font-icon-detail input{
+    margin: 25px auto 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #aaa;
+    font-size: 13px;
+}
+
+#map{
+    position:relative;
+    width:100%;
+    height: calc(100% - 60px);
+}
+
+.places-buttons .btn{
+    margin-bottom: 30px
+}
+.sidebar .nav > li.active-pro{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.sidebar .nav > li.active-pro a{
+    background: rgba(255, 255, 255, 0.14);
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.table-upgrade td:nth-child(2),
+.table-upgrade td:nth-child(3){
+    text-align: center;
+}
+
+@media all and (max-width: 991px)  {
+    .sidebar .nav > li.active-pro{
+        position: initial;
+    }
+}

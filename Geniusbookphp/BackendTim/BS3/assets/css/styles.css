@@ -1,0 +1,284 @@
+html{
+  height: 100%;
+}
+body{
+  background-color: #FDF8EA;
+
+  margin:0;
+ font-family: 'Inconsolata', monospace;
+}
+nav{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  font-family: 'Prata', serif;
+  font-size: 22px;
+}
+h1,h2,h3,h4,h5 {
+  font-family: 'Prata', serif;
+  font-weight: normal;
+}
+h1{
+  font-size: 150px;
+  margin: 0;
+}
+h2{
+  font-size: 100px;
+
+}
+.works h2{
+  color:#41ccc4;
+}
+.myteam h2{
+  color: #003170;
+}
+.img-margin {
+  margin-bottom: 60px;
+}
+.contact h2{
+  color:#f3747b;
+}
+h3{
+  font-size: 50px;
+  color:#4995D0;
+  background-color:#FDDBB0;
+
+}
+.work h3 {
+  color: #16736e;
+}
+.myteam h3{
+  color: #306fbf;
+  margin: 0 0 70px 0;
+  line-height: 100%;
+}
+  h4{
+  font-size: 32px;
+  color: #16736e
+  background-color: #75e3dd;
+  display: inline-block;
+  margin: 0;
+  padding: 4px;
+}
+.work a {
+  letter-spacing: 3px;
+  color:#2ce6dc;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+p{
+  line-height: 145%;
+}
+.navigation {
+  text-align: center;
+}
+.navigation li {
+  display: inline-block;
+  margin: 0 15px;
+  color: #3B425A;
+
+}
+.navigation li a {
+   background-color: #fff;
+  color: #3B425A;
+  text-decoration: inherit;
+}
+.left-col, .right-col{
+  color: #fff;
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-col{
+  background-color: #2D75BB;
+
+}
+.right-col{
+  background-color: #FCF481;
+}
+
+.top-container {
+  width:500px;
+  margin 0 auto;
+}
+.scroll{
+  color:#2864b1;
+  text-align: center;
+}
+.works{
+  color:#16736e;
+}
+
+.works-img {
+  position: relative;
+  width:100%;
+}
+.work h4 {
+  position:absolute;
+  z-index:1;
+  top: -25px;
+
+}
+.works h4.right-aligned {
+  right:0;
+}
+.extra-gutters {
+  padding: 0 60px;
+}
+.right-aligned {
+  text-align: right;
+}
+
+img{
+  max-width:100%;
+}
+footer{
+  background-color: #2D75BB;
+  min-height: 220px;
+  background-image: url(../img/socialmedia.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  alignt-items: center;
+  margin-top: 60px;
+  color:#fff;
+  text-align: center;
+}
+.social-icon{
+  height: 60px;
+  margin: 10px 20px;
+}
+.social-icons-container{
+text-align: center;
+
+}
+
+.sidebar{
+  background-color: #CD8162	;
+
+  float: left;
+  text-align: center;
+  width:32%;
+}
+
+.content{
+  background-color: white;
+  box-shadow: 0px  3px  4px rgba(0,0,0, .3);
+  margin-left: 100%;
+  padding: 20px;
+  width:200%;
+  color: #CD8162;
+}
+
+.checked {
+  color: orange;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FF999C;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  
+  sachht{
+      backgroud-color: pink;
+  }
+  
+  
+  
+   button {
+  background-color: #FC2986;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  button {border-radius: 12px;}
+button:hover {
+  background-color: yellow;
+  color: blue;
+}
+nav1{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  font-family: 'Prata', serif;
+  font-size: 22px;
+}
+    
+    
+    table, th, td {
+  border: 7px solid #fff;
+  width:100%;
+    padding: 13px;
+
+      text-align:center;
+
+    border-collapse: collapse;
+  background-color: #FDF8EA;
+
+}
+table {border-radius: 12px;}
+
+table th{
+  background-color: #1970C1;
+  color: white;
+
+  form{
+      text-align:center;
+  }
+
+
+}
+.checked {
+  color: orange;
+}
+
+phanloai{
+    backroud-color: black;
+    color: #fff;
+}
